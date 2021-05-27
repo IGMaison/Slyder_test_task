@@ -1,0 +1,144 @@
+body{overflow:hidden;
+	background: 0 -350px url(i.jpg) no-repeat white;
+ ; 
+	background-size: 2000px auto;  	overflow:auto;
+}
+
+
+#main { visibility:hidden;
+	-moz-transform: rotate(17deg) skew(-3deg, -1deg);
+	-webkit-transform: rotate(17deg) skew(-3deg, -1deg);
+	-o-transform: rotate(17deg) skew(-3deg, -1deg);
+	-ms-transform: rotate(17deg) skew(-3deg, -1deg);
+	transform: rotate(17deg) skew(-3deg, -1deg);
+	position:absolute;  	
+	margin: 250px 300px;
+	padding: 10px;
+	width: 660px;
+	height:320px;
+	background:  linear-gradient( 115deg, rgb(250, 250, 240) 0%, rgb(230, 230, 230) 30%, rgb(200, 200, 180) 40%);
+ 
+	border: 3px solid silver;
+ 
+	border-radius:15px;
+	box-shadow: 5px 5px 20px 5px black;
+}
+
+#scr {  
+	position:absolute;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+	width: 600px;
+	height: 320px;
+	margin:  auto;
+	background: no-repeat black;
+	border: 2px solid #cc8;
+	border-radius:10px;
+	overflow:hidden;
+	box-shadow: inset 2px 2px 10px -2px silver;
+}
+
+#scr2 {  
+	position:absolute;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+	width: 660px;
+	height: 320px;
+	margin:  auto;
+	background: no-repeat linear-gradient( 167deg, rgba(206, 194, 161, 0.3) 44%, rgba(0, 0, 0, 0.1) 46%);
+ 	
+	border-radius:10px;	
+}
+
+button:focus{	
+  	outline: none;  	
+}
+
+button {
+  	border:none;
+	border-radius:5px;
+ 	color: Silver;
+	box-shadow: inset -1px -1px 7px 0px silver;
+	position: absolute;
+	top: 10px;
+	width: 25px;
+	height: 320px;
+	font: 12pt arial;
+	text-align: center;
+	margin: 0;
+}
+
+#btn_l {
+	left:7px;
+}
+
+#btn_r {
+	right:7px;
+	opacity: 0.8;
+}
+
+button:hover{
+	background: white;
+	box-shadow: inset -1px -1px 7px 0px grey;
+	cursor:pointer;
+}
+
+button:active{
+	background: WhiteSmoke;
+	box-shadow: inset -1px -1px 7px 0px LightGray;
+	outline: 0px solid LightGray;
+}
+
+.slide{	 
+	overflow:hidden;	
+	position:absolute;
+	width: 600px;
+	height:320px;
+	background: top center no-repeat;
+	background-size: cover;
+	font-size: 40px;
+	text-align: right;
+	margin: 0;
+	color: pink;
+	text-shadow: 2px 2px 5px black;
+	box-shadow: inset 2px 2px 10px -2px grey;	
+}
+
+.points{
+	position:absolute;
+	text-align: center;
+	width:100%;
+	left: 0;
+	bottom: -8px;
+}
+
+.point{
+
+	display:inline-block;	 
+	background:#cfc;
+	width:5px;
+	height:10px;
+	margin: 0 27px;
+	border-radius:3px;
+	box-shadow: inset 0 0 2px 1px #0c0;
+	cursor:pointer;
+}
+
+.point_r{	 
+	background:#fcc;	
+	box-shadow: inset 0 0 2.5px 1px #f55;	
+}
+
+.point_o{	 
+	background:#fec;	
+	box-shadow: inset 0 0 2.5px 1px #fc5;	
+}
+
+#point_off{	 
+	background:#fff;	
+	box-shadow: inset 0 0 4px 1px #000;
+}
